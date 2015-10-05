@@ -20,7 +20,7 @@
 				<?php ann_adores_posted_on(); ?>
 			</span>
 			<span class="bericht-reacties">
-          		<a href="#comments">
+          		<a href="<?php echo esc_url( get_permalink() ); ?>#comments">
           		<?php echo get_comments_number();
           			if (get_comments_number() == 1) {
           				echo " reactie";

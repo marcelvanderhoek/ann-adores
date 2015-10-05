@@ -344,6 +344,10 @@ big {
   font-size: 125%;
 }
 
+label {
+  font-weight: 700;
+}
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -533,7 +537,7 @@ table {
 
 .site-info {
   font-size: .75em;
-  border-top: 1px dashed #fec1d9;
+  border-top: 1px solid #fec1d9;
   text-align: center;
   padding: 1em;
 }
@@ -963,7 +967,7 @@ a:active {
 
 .bericht {
   border-top: 1px solid #f8c0d8;
-  border-bottom: 2px solid #f8c0d8;
+  border-bottom: 1px solid #f8c0d8;
   margin: 0 0 1.5em;
   padding-bottom: 1em;
 }
@@ -985,6 +989,7 @@ a:active {
 }
 
 .bericht-titel {
+  font-weight: 700;
   margin-bottom: 0.25em;
 }
 
@@ -1071,6 +1076,10 @@ a:active {
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
+.comments-area {
+  outline: none;
+}
+
 .comment-content a {
   word-wrap: break-word;
 }
